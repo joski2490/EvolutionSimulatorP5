@@ -1,3 +1,3 @@
 # EvolutionSimulatorP5.js
 
-To run open p5/index.html
+To run, download source & open p5/empty-example/index.html
