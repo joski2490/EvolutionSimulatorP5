@@ -23,8 +23,8 @@ function setup() {
 
 class bot {
   constructor(pos = new p5.Vector(random(0, 400), random(0, 400)),
-    maxAcc = randomGaussian(0.1, 0.025), maxVel = randomGaussian(2.5, 1.0),
-    hp = randomGaussian(100, 25), lifeSpan = randomGaussian(40, 10), ancestors = [], children = []) {
+    maxAcc = randomGaussian(0.4, 0.025), maxVel = randomGaussian(2.5, 1.0),
+    hp = randomGaussian(400, 25), lifeSpan = randomGaussian(400, 10), ancestors = [], children = []) {
     this.id = String(Date.now()+Math.round(100*random())).slice(-3);
     if (ancestors.length > 0) {
       this.parent = ancestors[ancestors.length-1];
