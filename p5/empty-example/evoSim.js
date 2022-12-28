@@ -15,7 +15,7 @@ function setup() {
     bots.push(new bot());
   }
   // Populate foods & poisons lists
-  for (let i = 0; i < 20; i++) {
+  for (let i = 0; i < 50; i++) {
     foods.push(new food());
     poisons.push(new poison());
   }
@@ -195,7 +195,7 @@ class bot {
 
 class food {
   constructor() {
-    this.pos = new p5.Vector(random(10, 390), random(10, 390));
+    this.pos = new p5.Vector(random(100, 390), random(100, 390));
 
   }
 
