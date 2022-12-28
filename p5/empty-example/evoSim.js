@@ -1,5 +1,5 @@
-let WIDTH = 950;
-let HEIGHT = 400;
+let WIDTH = 1100;
+let HEIGHT = 700;
 
 let bots = []; // List of bots
 let foods = []; // List of foods
@@ -257,7 +257,7 @@ function draw() {
     }
   }
   // Chance to repopulate poisons list
-  if (poisons.length < 5) {
+  if (poisons.length < 2) {
     for (let i = 0; i < 10 - poisons.length; i++) {
       if (Math.abs(randomGaussian(0, 0.25)) > 0.5) {
         poisons.push(new poison());
