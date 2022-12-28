@@ -11,11 +11,11 @@ function setup() {
   createCanvas(WIDTH, HEIGHT);
   myBot = new bot();
   // Populate bots list
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 20; i++) {
     bots.push(new bot());
   }
   // Populate foods & poisons lists
-  for (let i = 0; i < 50; i++) {
+  for (let i = 0; i < 500; i++) {
     foods.push(new food());
     poisons.push(new poison());
   }
