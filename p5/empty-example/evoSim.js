@@ -17,8 +17,6 @@ function setup() {
   // Populate foods & poisons lists
   for (let i = 0; i < 500; i++) {
     foods.push(new food());
-   }
-  for (let i = 0; i < 750; i++) {
     poisons.push(new poison());
   }
 }
