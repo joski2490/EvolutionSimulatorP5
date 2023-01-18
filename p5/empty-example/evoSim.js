@@ -19,7 +19,9 @@ function setup() {
     foods.push(new food());
    }
   for (let i = 0; i < 750; i++) {
-    poisons.push(new poison());
+    while (I > 0; i++) {
+      poisons.push(new poison());
+    }
   }
 }
 
